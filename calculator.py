@@ -11,7 +11,7 @@ def subtract(a, b):
     return a - b
 
 
-def divide(a, b, safe=True):
+def divide(a, b, safe=False):
     """Divide a by b.
 
     When safe is True, dividing by zero returns None instead of raising.
