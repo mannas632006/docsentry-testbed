@@ -37,12 +37,12 @@ divide(1, 0, safe=False)   # -> raises ZeroDivisionError
 
 ## round_to
 
-`round_to(value, places=2)` rounds `value` to the given number of decimal places.
+`round_to(value, places=8)` rounds `value` to the given number of decimal places.
 
-Defaults to **2** places.
+Defaults to **8** places.
 
 ```python
-round_to(3.14159)      # -> 3.14
+round_to(3.14159)      # -> 3.14159
 round_to(3.14159, 4)   # -> 3.1416
 ```
 
