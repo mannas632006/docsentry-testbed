@@ -21,6 +21,6 @@ def divide(a, b, safe=False):
     return a / b
 
 
-def round_to(value, places=2):
+def round_to(value, places=4):
     """Round value to the given number of decimal places."""
     return round(value, places)
